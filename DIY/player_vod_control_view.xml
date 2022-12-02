@@ -51,18 +51,12 @@
    </LinearLayout>
     
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_gravity="bottom"          
-        android:layout_marginBottom="@dimen/vs_10"
-        android:gravity="bottom"
-                  
-        android:paddingLeft="@dimen/vs_10"
-        android:paddingEnd="@dimen/vs_10"
-        android:paddingBottom="@dimen/vs_10"          
-        android:orientation="horizontal">
-        
-        
+  android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|end"
+        android:layout_marginEnd="@dimen/vs_10"
+        android:layout_marginRight="@dimen/vs_10"    
+        android:orientation="vertical">
                 <TextView
                     android:id="@+id/curr_time"
                     android:layout_width="wrap_content"
