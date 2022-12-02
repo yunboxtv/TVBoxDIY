@@ -820,4 +820,3 @@ public class ModelSettingFragment extends BaseLazyFragment {
         }
     }
 }
-
