@@ -15,7 +15,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Clone Project
-        run: git clone -b main --depth=1 https://notabug.org/yunbox2/ud
+        run: git clone -b main --depth=1 https://github.com/q215613905/TVBoxOS
       - name: DIY
         run: |
           chmod +x diy-俊.sh
@@ -36,5 +36,5 @@ jobs:
       - name: Upload App To Artifact
         uses: actions/upload-artifact@v3
         with:
-          name: TVBox
+          name: 影视Box
           path: ${{ github.workspace }}/apk/*
