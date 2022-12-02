@@ -22,8 +22,7 @@ cp $CURRENT_DIR/DIY/播放/player_vod_control_view.xml  $CURRENT_DIR/$DIR/app/sr
 cp $CURRENT_DIR/DIY/播放/VodController.java $CURRENT_DIR/$DIR/app/src/main/java/com/github/tvbox/osc/player/controller/VodController.java
 mv $CURRENT_DIR/DIY/播放/shape_dialog_top_bg.xml  $CURRENT_DIR/$DIR/app/src/main/res/drawable/shape_dialog_top_bg.xml
 mv $CURRENT_DIR/DIY/播放/play_mobile_center_shape.xml  $CURRENT_DIR/$DIR/app/src/main/res/drawable/play_mobile_center_shape.xml
-//#播放界面增加外部播放器
-//cp $CURRENT_DIR/DIY/播放/PlayFragment.java $CURRENT_DIR/$DIR/app/src/main/java/com/github/tvbox/osc/ui/fragment/PlayFragment.java
+
 
 //通用
 cp $CURRENT_DIR/DIY/HawkConfig.java $CURRENT_DIR/$DIR/app/src/main/java/com/github/tvbox/osc/util/HawkConfig.java
